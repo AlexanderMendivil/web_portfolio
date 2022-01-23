@@ -7,8 +7,11 @@ const Layout = () => {
 
     return(
         <div className="layout">
+            <div className="sideMenu">
             <Sidebar/>
-            <div>
+
+            </div>
+            <div className="screens">
                 <Outlet/>
             </div>
         </div>
