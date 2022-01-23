@@ -1,0 +1,6 @@
+.about_container{
+    background-color: rgb(57, 57, 57);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
